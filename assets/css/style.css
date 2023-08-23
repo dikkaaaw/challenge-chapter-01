@@ -1,3 +1,179 @@
+/* Navbar Section */
+.navbar {
+  background-color: #F1F3FF;
+}
+
+.navbar-nav {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700px;
+}
+
+#logoButton {
+  background-color: #0D28A6; 
+  width: 100px; 
+  height: 34px; 
+  border-radius: 0px;
+}
+
+#registerButton {
+  margin-left: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #5CB85F;
+  width: 81px;
+  height: 36px;
+  border-radius: 2px;
+}
+
+/* Hero Section */
+.hero-title, .hero-description, #startButton {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 70px;
+}
+
+#heroBox {
+  padding-top: 50px; 
+  padding-left: 30px;
+}
+
+.hero-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+}
+
+.hero-description {
+  width: 468px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.img-car {
+  z-index: 2; 
+  width: 100%; 
+  height: 100%;
+}
+
+#carBackground {
+  width: 100%; 
+  height: 55%; 
+  border-radius: 60px 0px 0px 0px;
+}
+
+#startButton {
+  background-color: #5CB85F;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 2px;
+  padding: 8px 12px 8px 12px;
+  width: 155px;
+  height: 36px;
+  border: none;
+}
+
+/* Our Service Section */
+.img-service {
+  width: 459px; 
+  height: 428px; 
+  margin-left: 50px;
+}
+
+#ourServiceTitle, #ourServiceDesc, #listService {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#ourServiceTitle {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+#ourServiceDesc {
+  margin-top: 18px;
+  font-weight: 300; 
+  font-size: 14px; 
+  line-height: 20px;
+}
+
+#listService {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+/* Why Us Section */
+#whyUsTitle, #whyUsDesc, .card-title, .card-text {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#whyUsTitle {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 100px;
+}
+
+#whyUsDesc {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.card-title {
+  font-size: 16px;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+/* Testimoni Section */
+#testimoniTitle, #testimoniDesc {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#testimoniTitle {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+#testimoniDesc {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* Banner Section */
+#bannerBody {
+  background-color: #0D28A6; 
+  border-radius: 13px;  
+  width: 1114px; 
+  height: 326px;
+}
+
+#bannerTitle, #bannerDesc {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#bannerTitle {
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 45px;
+}
+
+#bannerDesc {
+  font-weight: 300;
+  font-size: 14px; 
+  line-height: 20px;
+}
+
+#startButton2 {
+  background-color: #5CB85F; 
+  border-radius: 2px; 
+  padding: 8px 12px 8px 12px; 
+  font-weight: 700;
+}
+/* Footer Section */
 .socmed-logo {
   margin-right: 16px;
 }
