@@ -1,3 +1,9 @@
+@media only screen and (min-width: 912px){
+  .container {
+    margin: 0px 136px 0px 136px !important;
+  }
+}
+
 /* Navbar Section */
 .navbar {
   background-color: #F1F3FF;
@@ -143,6 +149,46 @@
   font-weight: 300;
 }
 
+#testimoniContent {
+  text-align: left; 
+  margin-top: 70px;
+  margin-right: 110px;
+}
+
+.testimonial-text, .testimonial-person {
+  font-size: 14px; 
+  line-height: 20px;
+}
+
+.testimonial-person {
+  font-weight: 500;
+}
+
+.profile-img {
+  width: 70px;
+  height: 80px;
+  object-fit: cover;
+}
+
+#carouselTestimonialAutoplaying {
+  width: 832px; 
+  height: 270px; 
+  background-color: #F1F3FF; 
+  border-radius: 8px; 
+  margin-left: 144px;
+}
+
+.row-carousel-content {
+  margin-top: 100px; 
+  margin-left: 70px;
+}
+
+.star-logo {
+  width: 16px; 
+  height: 16px; 
+  color: #F9CC00
+}
+
 /* Banner Section */
 #bannerBody {
   background-color: #0D28A6; 
@@ -173,7 +219,35 @@
   padding: 8px 12px 8px 12px; 
   font-weight: 700;
 }
+
+/* FAQ Section */
+#faqTitle, #faqDesc, .accordion-header, .accordion-body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#faqTitle {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#faqDesc {
+  font-size: 14px;
+}
+
+.accordion-body {
+  font-size: 14px;
+}
+
 /* Footer Section */
+.address-row {
+  font-size: 14px;
+}
+
+.section-row {
+  margin-left: 80px;
+}
+
 .socmed-logo {
   margin-right: 16px;
+  cursor: pointer;
 }
